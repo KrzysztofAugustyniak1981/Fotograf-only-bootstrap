@@ -27,5 +27,53 @@
   .photo-gallery .item {
     padding-bottom:30px;
   }
+
+  .testimonial {
+    filter: brightness(80%);
+    padding: 4rem 0;
+    background-image: url('./images/pexels-alexander-dummer-134469.jpg');
+    
+    background-color: hsla(0, 0%, 0%, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
+  .testimonial-content {
+    width: 60%;
+  }
   
+  .testimonial-header {
+    margin-bottom: 1.75rem;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .testimonial-text {
+    filter: brightness(200%);
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .site-footer {
+    padding: 95px 0 10px;
+    background-color: #2D3E50;
+    font-size: .9rem;
+  }
+  
+  .footer-first-col li {
+    padding: .6rem 0;
+  }
+  
+  .footer-first-col li i {
+    margin-right: .75rem;
+  }
+  
+  .footer-second-col li {
+    padding: 1rem 0;
+    width: 90%;
+    border-bottom: 1px solid #777777;
+  }
+  
+  .footer-second-col li:last-child {
+    border-bottom: none;
+  }
